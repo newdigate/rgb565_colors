@@ -1,0 +1,9 @@
+set(rgb565_colors_VERSION "@rgb565_colors_VERSION@")
+#set(rgb565_colors_LIBS rgb565_colors -L@LIB_INSTALL_DIR@)
+
+@PACKAGE_INIT@
+
+set_and_check(rgb565_colors_INCLUDE_DIR "@INCLUDE_INSTALL_DIR@")
+#set_and_check(rgb565_colors_DIR "@LIB_INSTALL_DIR@")
+
+check_required_components(rgb565_colors)

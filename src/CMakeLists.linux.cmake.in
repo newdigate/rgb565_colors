@@ -1,0 +1,48 @@
+message("building for linux...")
+add_definitions(-DBUILD_FOR_LINUX)
+
+set(INCLUDE_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/include/rgb565_colors/)
+set(LIB_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/lib/rgb565_colors )
+
+find_package(teensy_x86_stubs)
+include_directories(${teensy_x86_stubs_INCLUDE_DIR})
+
+find_package(teensy_st7735_linux_stubs)
+include_directories(${teensy_st7735_linux_stubs_INCLUDE_DIR})
+
+add_library(rgb565_colors INTERFACE
+        ${HEADER_FILES}
+)
+
+set_target_properties(rgb565_colors PROPERTIES PUBLIC_HEADER "${HEADER_FILES}")
+set_target_properties(rgb565_colors PROPERTIES LINKER_LANGUAGE C)
+
+include(CMakePackageConfigHelpers)
+configure_package_config_file(../cmake/rgb565_colors.cmake.in
+        ${CMAKE_CURRENT_BINARY_DIR}/rgb565_colorsConfig.cmake
+        INSTALL_DESTINATION ${LIB_INSTALL_DIR}/rgb565_colors/cmake
+        PATH_VARS)
+
+write_basic_package_version_file(
+        ${CMAKE_CURRENT_BINARY_DIR}/rgb565_colorsConfigVersion.cmake
+        VERSION ${rgb565_colors_VERSION}
+        COMPATIBILITY SameMajorVersion )
+
+install(TARGETS rgb565_colors DESTINATION
+        LIBRARY DESTINATION ${LIB_INSTALL_DIR}
+        ARCHIVE DESTINATION ${LIB_INSTALL_DIR}
+        PUBLIC_HEADER DESTINATION "include/rgb565_colors"
+        )
+
+install(FILES
+        ${CMAKE_CURRENT_BINARY_DIR}/rgb565_colorsConfig.cmake
+        ${CMAKE_CURRENT_BINARY_DIR}/rgb565_colorsConfigVersion.cmake
+        ${CMAKE_CURRENT_SOURCE_DIR}/../cmake/uninstall.cmake
+        DESTINATION "lib/cmake/rgb565_colors" )
+
+##
+# copied from: https://gist.github.com/royvandam/3033428
+# Add uninstall target
+# Requirements: Copy the uninstall.cmake file to the appropriate CMAKE_MODULE_PATH.
+add_custom_target(uninstall
+        "${CMAKE_COMMAND}" -P "${CMAKE_CURRENT_SOURCE_DIR}/cmake/uninstall.cmake")

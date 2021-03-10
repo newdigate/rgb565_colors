@@ -1,5 +1,8 @@
-# rgb565 colors
-a c++ header file containing definitions for RGB565 colors not defined in the arduino/ teensy libraries. 
+# rgb-565 color name definitions
+
+------------------
+
+installable header file containing definitions for RGB565 colors not defined in the arduino/ teensy libraries. 
 
 * Find your color [Lists_of_colors](https://en.wikipedia.org/wiki/Lists_of_colors)
 

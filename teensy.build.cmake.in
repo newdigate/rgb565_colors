@@ -1,0 +1,4 @@
+find_package(teensy_cmake_macros)
+
+import_arduino_library(${DEPSPATH} SPI)
+import_arduino_library(${DEPSPATH} ST7735_t3)
