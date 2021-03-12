@@ -4,7 +4,7 @@
 
 installable header file containing definitions for RGB565 colors not defined in the arduino/ teensy libraries. 
 
-* [Lists_of_colors](https://en.wikipedia.org/wiki/Lists_of_colors)
+* scraped from wikipedia's [Lists_of_colors](https://en.wikipedia.org/wiki/Lists_of_colors)
 
 # colors
 * [azure](#azure)
