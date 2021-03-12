@@ -11,6 +11,22 @@ I copied these values from this arduino forum thread, thanks to the author for s
 https://forum.arduino.cc/index.php?topic=451297.0
 
 # colors
+*[azure](#azure)
+*[black](#black)
+*[blue](#blue)
+*[brown](#brown)
+*[cyan](#cyan)
+*[gray](#gray)
+*[green](#green)
+*[magenta](#magenta)
+*[orange](#orange)
+*[pink](#pink)
+*[purple](#purple)
+*[red](#red)
+*[violet](#violet)
+*[white](#white)
+*[yellow](#yellow)
+*[misc](#misc)
 
 ## azure 
 ![azure](docs/svg/azure.svg)
@@ -28,10 +44,10 @@ https://forum.arduino.cc/index.php?topic=451297.0
 ![cyan](docs/svg/cyan.svg)
 
 ## gray 
-![azure](docs/svg/azure.svg)
+![gray](docs/svg/gray.svg)
 
 ## green 
-![azure](docs/svg/azure.svg)
+![green](docs/svg/green.svg)
 
 ## magenta 
 ![magenta](docs/svg/magenta.svg)
