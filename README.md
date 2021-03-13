@@ -917,4 +917,355 @@ installable header file containing definitions for RGB565 colors not defined in 
 
 
 ## misc 
-![misc](docs/svg/misc.svg)
+|  Color | Name  | rgb565  |  rgb888 |
+|---|---|---|---|
+| ![Absolute Zero](docs/tones/Absolute_zero.svg)  | Absolute Zero  | 0x0257 | #0048BA |
+| ![Aero](docs/tones/Aero.svg)  | Aero  | 0x7DDC | #7CB9E8 |
+| ![Almond](docs/tones/Almond.svg)  | Almond  | 0xEEF9 | #EFDECD |
+| ![Amaranth](docs/tones/Amaranth.svg)  | Amaranth  | 0xE16A | #E52B50 |
+| ![Amaranth (M&P)](docs/tones/Amaranth_mp.svg)  | Amaranth (M&P)  | 0x996D | #9F2B68 |
+| ![Amazon](docs/tones/Amazon.svg)  | Amazon  | 0x3BCB | #3B7A57 |
+| ![Amber](docs/tones/Amber.svg)  | Amber  | 0xFDE0 | #FFBF00 |
+| ![Amber (SAE/ECE)](docs/tones/Amber_saeece.svg)  | Amber (SAE/ECE)  | 0xFBE0 | #FF7E00 |
+| ![Amethyst](docs/tones/Amethyst.svg)  | Amethyst  | 0x9B39 | #9966CC |
+| ![Antique brass](docs/tones/Antique_brass.svg)  | Antique brass  | 0xCCAE | #CD9575 |
+| ![Antique bronze](docs/tones/Antique_bronze.svg)  | Antique bronze  | 0x62E4 | #665D1E |
+| ![Antique fuchsia](docs/tones/Antique_fuchsia.svg)  | Antique fuchsia  | 0x92F0 | #915C83 |
+| ![Antique ruby](docs/tones/Antique_ruby.svg)  | Antique ruby  | 0x80E5 | #841B2D |
+| ![Ao (English)](docs/tones/Ao_english.svg)  | Ao (English)  | 0x0400 | #008000 |
+| ![Aqua](docs/tones/Aqua.svg)  | Aqua  | 0x07FF | #00FFFF |
+| ![Aquamarine](docs/tones/Aquamarine.svg)  | Aquamarine  | 0x7FFA | #7FFFD4 |
+| ![Arctic lime](docs/tones/Arctic_lime.svg)  | Arctic lime  | 0xCFE2 | #D0FF14 |
+| ![Artichoke](docs/tones/Artichoke.svg)  | Artichoke  | 0x8CAF | #8F9779 |
+| ![Asparagus](docs/tones/Asparagus.svg)  | Asparagus  | 0x854D | #87A96B |
+| ![Auburn](docs/tones/Auburn.svg)  | Auburn  | 0xA145 | #A52A2A |
+| ![Aureolin](docs/tones/Aureolin.svg)  | Aureolin  | 0xFF60 | #FDEE00 |
+| ![Avocado](docs/tones/Avocado.svg)  | Avocado  | 0x5400 | #568203 |
+| ![Banana Mania](docs/tones/Banana_mania.svg)  | Banana Mania  | 0xF736 | #FAE7B5 |
+| ![Battleship grey](docs/tones/Battleship_grey.svg)  | Battleship grey  | 0x8430 | #848482 |
+| ![Big dip o’ruby](docs/tones/Big_dip_oruby.svg)  | Big dip o’ruby  | 0x9928 | #9C2542 |
+| ![Bisque](docs/tones/Bisque.svg)  | Bisque  | 0xFF18 | #FFE4C4 |
+| ![Bistre](docs/tones/Bistre.svg)  | Bistre  | 0x3964 | #3D2B1F |
+| ![Bitter lemon](docs/tones/Bitter_lemon.svg)  | Bitter lemon  | 0xCEE2 | #CAE00D |
+| ![Bitter lime](docs/tones/Bitter_lime.svg)  | Bitter lime  | 0xBFE0 | #BFFF00 |
+| ![Blanched almond](docs/tones/Blanched_almond.svg)  | Blanched almond  | 0xFF59 | #FFEBCD |
+| ![Blast-off bronze](docs/tones/Blast_off_bronze.svg)  | Blast-off bronze  | 0xA38C | #A57164 |
+| ![Blond](docs/tones/Blond.svg)  | Blond  | 0xF777 | #FAF0BE |
+| ![Blush](docs/tones/Blush.svg)  | Blush  | 0xDAF0 | #DE5D83 |
+| ![Bole](docs/tones/Bole.svg)  | Bole  | 0x7A27 | #79443B |
+| ![Brandy](docs/tones/Brandy.svg)  | Brandy  | 0x8208 | #87413F |
+| ![Bright lilac](docs/tones/Bright_lilac.svg)  | Bright lilac  | 0xD49D | #D891EF |
+| ![Bright maroon](docs/tones/Bright_maroon.svg)  | Bright maroon  | 0xC109 | #C32148 |
+| ![Brilliant rose](docs/tones/Brilliant_rose.svg)  | Brilliant rose  | 0xFAB4 | #FF55A3 |
+| ![Bronze](docs/tones/Bronze.svg)  | Bronze  | 0xCBE6 | #CD7F32 |
+| ![Burgundy](docs/tones/Burgundy.svg)  | Burgundy  | 0x8004 | #800020 |
+| ![Burlywood](docs/tones/Burlywood.svg)  | Burlywood  | 0xDDB0 | #DEB887 |
+| ![Burnt sienna](docs/tones/Burnt_sienna.svg)  | Burnt sienna  | 0xE3AA | #E97451 |
+| ![Byzantine](docs/tones/Byzantine.svg)  | Byzantine  | 0xB9B4 | #BD33A4 |
+| ![Cadet](docs/tones/Cadet.svg)  | Cadet  | 0x534E | #536872 |
+| ![Cadet grey](docs/tones/Cadet_grey.svg)  | Cadet grey  | 0x9515 | #91A3B0 |
+| ![Café au lait](docs/tones/Cafe_au_lait.svg)  | Café au lait  | 0xA3CB | #A67B5B |
+| ![Café noir](docs/tones/Cafe_noir.svg)  | Café noir  | 0x49A4 | #4B3621 |
+| ![Camel](docs/tones/Camel.svg)  | Camel  | 0xBCCD | #C19A6B |
+| ![Canary](docs/tones/Canary.svg)  | Canary  | 0xFFF3 | #FFFF99 |
+| ![Capri](docs/tones/Capri.svg)  | Capri  | 0x05FF | #00BFFF |
+| ![Caput mortuum](docs/tones/Caput_mortuum.svg)  | Caput mortuum  | 0x5944 | #592720 |
+| ![Carmine (M&P)](docs/tones/Carmine_mp.svg)  | Carmine (M&P)  | 0xD008 | #D70040 |
+| ![Carnelian](docs/tones/Carnelian.svg)  | Carnelian  | 0xB0E3 | #B31B1B |
+| ![Catawba](docs/tones/Catawba.svg)  | Catawba  | 0x71A8 | #703642 |
+| ![Cedar Chest](docs/tones/Cedar_chest.svg)  | Cedar Chest  | 0xC2C9 | #C95A49 |
+| ![Cerise](docs/tones/Cerise.svg)  | Cerise  | 0xD98C | #DE3163 |
+| ![Cerulean (Crayola)](docs/tones/Cerulean_crayola.svg)  | Cerulean (Crayola)  | 0x255A | #1DACD6 |
+| ![Cerulean frost](docs/tones/Cerulean_frost.svg)  | Cerulean frost  | 0x6CD8 | #6D9BC3 |
+| ![Chartreuse (web)](docs/tones/Chartreuse_web.svg)  | Chartreuse (web)  | 0x7FE0 | #7FFF00 |
+| ![China rose](docs/tones/China_rose.svg)  | China rose  | 0xA28D | #A8516E |
+| ![Chocolate (traditional)](docs/tones/Chocolate_traditional.svg)  | Chocolate (traditional)  | 0x7A00 | #7B3F00 |
+| ![Chocolate (web)](docs/tones/Chocolate_web.svg)  | Chocolate (web)  | 0xD344 | #D2691E |
+| ![Cinnamon Satin](docs/tones/Cinnamon_satin.svg)  | Cinnamon Satin  | 0xCB0F | #CD607E |
+| ![Citrine](docs/tones/Citrine.svg)  | Citrine  | 0xE661 | #E4D00A |
+| ![Citron](docs/tones/Citron.svg)  | Citron  | 0x9D44 | #9FA91F |
+| ![Claret](docs/tones/Claret.svg)  | Claret  | 0x78C6 | #7F1734 |
+| ![Coffee](docs/tones/Coffee.svg)  | Coffee  | 0x6A67 | #6F4E37 |
+| ![Cool grey](docs/tones/Cool_grey.svg)  | Cool grey  | 0x8C95 | #8C92AC |
+| ![Copper](docs/tones/Copper.svg)  | Copper  | 0xB386 | #B87333 |
+| ![Copper (Crayola)](docs/tones/Copper_crayola.svg)  | Copper (Crayola)  | 0xDC4D | #DA8A67 |
+| ![Copper penny](docs/tones/Copper_penny.svg)  | Copper penny  | 0xAB6D | #AD6F69 |
+| ![Copper rose](docs/tones/Copper_rose.svg)  | Copper rose  | 0x9B2C | #996666 |
+| ![Coquelicot](docs/tones/Coquelicot.svg)  | Coquelicot  | 0xF9C0 | #FF3800 |
+| ![Corn](docs/tones/Corn.svg)  | Corn  | 0xFF4B | #FBEC5D |
+| ![Cosmic cobalt](docs/tones/Cosmic_cobalt.svg)  | Cosmic cobalt  | 0x3171 | #2E2D88 |
+| ![Cosmic latte](docs/tones/Cosmic_latte.svg)  | Cosmic latte  | 0xFFBC | #FFF8E7 |
+| ![Crimson (UA)](docs/tones/Crimson_ua.svg)  | Crimson (UA)  | 0x98E6 | #9E1B32 |
+| ![Crystal](docs/tones/Crystal.svg)  | Crystal  | 0xA6BB | #A7D8DE |
+| ![Cyber grape](docs/tones/Cyber_grape.svg)  | Cyber grape  | 0x5A0F | #58427C |
+| ![Cyclamen](docs/tones/Cyclamen.svg)  | Cyclamen  | 0xF374 | #F56FA1 |
+| ![Dark byzantium](docs/tones/Dark_byzantium.svg)  | Dark byzantium  | 0x59CA | #5D3954 |
+| ![Dark goldenrod](docs/tones/Dark_goldenrod.svg)  | Dark goldenrod  | 0xB421 | #B8860B |
+| ![Dark khaki](docs/tones/Dark_khaki.svg)  | Dark khaki  | 0xBDAD | #BDB76B |
+| ![Dark lava](docs/tones/Dark_lava.svg)  | Dark lava  | 0x49E6 | #483C32 |
+| ![Dark liver](docs/tones/Dark_liver.svg)  | Dark liver  | 0x526A | #534B4F |
+| ![Dark liver (horses)](docs/tones/Dark_liver_horses.svg)  | Dark liver (horses)  | 0x51E7 | #543D37 |
+| ![Dark orchid](docs/tones/Dark_orchid.svg)  | Dark orchid  | 0x9999 | #9932CC |
+| ![Dark salmon](docs/tones/Dark_salmon.svg)  | Dark salmon  | 0xE4AF | #E9967A |
+| ![Dark sienna](docs/tones/Dark_sienna.svg)  | Dark sienna  | 0x38A2 | #3C1414 |
+| ![Dark turquoise](docs/tones/Dark_turquoise.svg)  | Dark turquoise  | 0x0679 | #00CED1 |
+| ![Davys grey](docs/tones/Davys_grey.svg)  | Davys grey  | 0x52AA | #555555 |
+| ![Deep cerise](docs/tones/Deep_cerise.svg)  | Deep cerise  | 0xD990 | #DA3287 |
+| ![Deep champagne](docs/tones/Deep_champagne.svg)  | Deep champagne  | 0xF6B4 | #FAD6A5 |
+| ![Deep chestnut](docs/tones/Deep_chestnut.svg)  | Deep chestnut  | 0xB269 | #B94E48 |
+| ![Deep saffron](docs/tones/Deep_saffron.svg)  | Deep saffron  | 0xFCC6 | #FF9933 |
+| ![Deep Space Sparkle](docs/tones/Deep_space_sparkle.svg)  | Deep Space Sparkle  | 0x4B2D | #4A646C |
+| ![Deep taupe](docs/tones/Deep_taupe.svg)  | Deep taupe  | 0x7AEC | #7E5E60 |
+| ![Denim](docs/tones/Denim.svg)  | Denim  | 0x1B17 | #1560BD |
+| ![Desert](docs/tones/Desert.svg)  | Desert  | 0xBCCD | #C19A6B |
+| ![Dogwood rose](docs/tones/Dogwood_rose.svg)  | Dogwood rose  | 0xD0CD | #D71868 |
+| ![Drab](docs/tones/Drab.svg)  | Drab  | 0x9383 | #967117 |
+| ![Ecru](docs/tones/Ecru.svg)  | Ecru  | 0xC590 | #C2B280 |
+| ![Eggplant](docs/tones/Eggplant.svg)  | Eggplant  | 0x620A | #614051 |
+| ![Eigengrau](docs/tones/Eigengrau.svg)  | Eigengrau  | 0x18A4 | #16161D |
+| ![Electric indigo](docs/tones/Electric_indigo.svg)  | Electric indigo  | 0x681F | #6F00FF |
+| ![Electric lime](docs/tones/Electric_lime.svg)  | Electric lime  | 0xCFE0 | #CCFF00 |
+| ![Emerald](docs/tones/Emerald.svg)  | Emerald  | 0x562F | #50C878 |
+| ![English lavender](docs/tones/English_lavender.svg)  | English lavender  | 0xB412 | #B48395 |
+| ![English vermillion](docs/tones/English_vermillion.svg)  | English vermillion  | 0xCA49 | #CC474B |
+| ![Fallow](docs/tones/Fallow.svg)  | Fallow  | 0xBCCD | #C19A6B |
+| ![Fandango](docs/tones/Fandango.svg)  | Fandango  | 0xB1B1 | #B53389 |
+| ![Fashion fuchsia](docs/tones/Fashion_fuchsia.svg)  | Fashion fuchsia  | 0xF014 | #F400A1 |
+| ![Fawn](docs/tones/Fawn.svg)  | Fawn  | 0xE54E | #E5AA70 |
+| ![Field drab](docs/tones/Field_drab.svg)  | Field drab  | 0x6AA4 | #6C541E |
+| ![Fiery rose](docs/tones/Fiery_rose.svg)  | Fiery rose  | 0xFAAE | #FF5470 |
+| ![Fire opal](docs/tones/Fire_opal.svg)  | Fire opal  | 0xE2E9 | #E95C4B |
+| ![Firebrick](docs/tones/Firebrick.svg)  | Firebrick  | 0xB104 | #B22222 |
+| ![Flame](docs/tones/Flame.svg)  | Flame  | 0xDAC4 | #E25822 |
+| ![Flirt](docs/tones/Flirt.svg)  | Flirt  | 0xA00D | #A2006D |
+| ![French beige](docs/tones/French_beige.svg)  | French beige  | 0xA3CB | #A67B5B |
+| ![French bistre](docs/tones/French_bistre.svg)  | French bistre  | 0x8369 | #856D4D |
+| ![French fuchsia](docs/tones/French_fuchsia.svg)  | French fuchsia  | 0xFA12 | #FD3F92 |
+| ![French lilac](docs/tones/French_lilac.svg)  | French lilac  | 0x8311 | #86608E |
+| ![French lime](docs/tones/French_lime.svg)  | French lime  | 0x9FE7 | #9EFD38 |
+| ![French mauve](docs/tones/French_mauve.svg)  | French mauve  | 0xD39A | #D473D4 |
+| ![French raspberry](docs/tones/French_raspberry.svg)  | French raspberry  | 0xC169 | #C72C48 |
+| ![French rose](docs/tones/French_rose.svg)  | French rose  | 0xF251 | #F64A8A |
+| ![Frostbite](docs/tones/Frostbite.svg)  | Frostbite  | 0xE1B4 | #E936A7 |
+| ![Fuchsia](docs/tones/Fuchsia.svg)  | Fuchsia  | 0xF81F | #FF00FF |
+| ![Fuchsia (Crayola)](docs/tones/Fuchsia_crayola.svg)  | Fuchsia (Crayola)  | 0xBAB7 | #C154C1 |
+| ![Fuchsia rose](docs/tones/Fuchsia_rose.svg)  | Fuchsia rose  | 0xC22E | #C74375 |
+| ![Fulvous](docs/tones/Fulvous.svg)  | Fulvous  | 0xE420 | #E48400 |
+| ![Fuzzy Wuzzy](docs/tones/Fuzzy_wuzzy.svg)  | Fuzzy Wuzzy  | 0x8204 | #87421F |
+| ![Gamboge](docs/tones/Gamboge.svg)  | Gamboge  | 0xE4C2 | #E49B0F |
+| ![Generic viridian](docs/tones/Generic_viridian.svg)  | Generic viridian  | 0x03EC | #007F66 |
+| ![Glossy grape](docs/tones/Glossy_grape.svg)  | Glossy grape  | 0xAC96 | #AB92B3 |
+| ![Gold](docs/tones/Gold.svg)  | Gold  | 0xA3E0 | #A57C00 |
+| ![Gold (Crayola)](docs/tones/Gold_crayola.svg)  | Gold (Crayola)  | 0xE5F1 | #E6BE8A |
+| ![Gold Fusion](docs/tones/Gold_fusion.svg)  | Gold Fusion  | 0x83A9 | #85754E |
+| ![Gold (metallic)](docs/tones/Gold_metallic.svg)  | Gold (metallic)  | 0xD567 | #D4AF37 |
+| ![Gold (web) (Golden)](docs/tones/Gold_web_golden.svg)  | Gold (web) (Golden)  | 0xFEA0 | #FFD700 |
+| ![Golden poppy](docs/tones/Golden_poppy.svg)  | Golden poppy  | 0xFE00 | #FCC200 |
+| ![Granny Smith apple](docs/tones/Granny_smith_apple.svg)  | Granny Smith apple  | 0xA713 | #A8E4A0 |
+| ![Grullo](docs/tones/Grullo.svg)  | Grullo  | 0xACD0 | #A99A86 |
+| ![Harvest gold](docs/tones/Harvest_gold.svg)  | Harvest gold  | 0xDC80 | #DA9100 |
+| ![Heat Wave](docs/tones/Heat_wave.svg)  | Heat Wave  | 0xFBC0 | #FF7A00 |
+| ![Hollywood cerise](docs/tones/Hollywood_cerise.svg)  | Hollywood cerise  | 0xF014 | #F400A1 |
+| ![Iceberg](docs/tones/Iceberg.svg)  | Iceberg  | 0x753A | #71A6D2 |
+| ![Icterine](docs/tones/Icterine.svg)  | Icterine  | 0xFFAB | #FCF75E |
+| ![Illuminating emerald](docs/tones/Illuminating_emerald.svg)  | Illuminating emerald  | 0x348E | #319177 |
+| ![Inchworm](docs/tones/Inchworm.svg)  | Inchworm  | 0xB74B | #B2EC5D |
+| ![Indigo](docs/tones/Indigo.svg)  | Indigo  | 0x4810 | #4B0082 |
+| ![Indigo dye](docs/tones/Indigo_dye.svg)  | Indigo dye  | 0x020D | #00416A |
+| ![Iris](docs/tones/Iris.svg)  | Iris  | 0x5A99 | #5A4FCF |
+| ![Irresistible](docs/tones/Irresistible.svg)  | Irresistible  | 0xB22D | #B3446C |
+| ![Isabelline](docs/tones/Isabelline.svg)  | Isabelline  | 0xF77D | #F4F0EC |
+| ![Jade](docs/tones/Jade.svg)  | Jade  | 0x054D | #00A86B |
+| ![Japanese carmine](docs/tones/Japanese_carmine.svg)  | Japanese carmine  | 0x9946 | #9D2933 |
+| ![Jasmine](docs/tones/Jasmine.svg)  | Jasmine  | 0xF6EF | #F8DE7E |
+| ![Jazzberry jam](docs/tones/Jazzberry_jam.svg)  | Jazzberry jam  | 0xA06B | #A50B5E |
+| ![Jonquil](docs/tones/Jonquil.svg)  | Jonquil  | 0xF643 | #F4CA16 |
+| ![June bud](docs/tones/June_bud.svg)  | June bud  | 0xBECB | #BDDA57 |
+| ![Key lime](docs/tones/Key_lime.svg)  | Key lime  | 0xE791 | #E8F48C |
+| ![Khaki (web)](docs/tones/Khaki_web.svg)  | Khaki (web)  | 0xC572 | #C3B091 |
+| ![Khaki (X11) (Light khaki)](docs/tones/Khaki_x11_light_khaki.svg)  | Khaki (X11) (Light khaki)  | 0xEF31 | #F0E68C |
+| ![Kobe](docs/tones/Kobe.svg)  | Kobe  | 0x8963 | #882D17 |
+| ![Kobi](docs/tones/Kobi.svg)  | Kobi  | 0xE4F8 | #E79FC4 |
+| ![Languid lavender](docs/tones/Languid_lavender.svg)  | Languid lavender  | 0xD65B | #D6CADD |
+| ![Laser lemon](docs/tones/Laser_lemon.svg)  | Laser lemon  | 0xFFEC | #FFFF66 |
+| ![Lava](docs/tones/Lava.svg)  | Lava  | 0xC884 | #CF1020 |
+| ![Lavender blush](docs/tones/Lavender_blush.svg)  | Lavender blush  | 0xFF7E | #FFF0F5 |
+| ![Lavender (floral)](docs/tones/Lavender_floral.svg)  | Lavender (floral)  | 0xB3FB | #B57EDC |
+| ![Lavender (web)](docs/tones/Lavender_web.svg)  | Lavender (web)  | 0xE73E | #E6E6FA |
+| ![Lemon](docs/tones/Lemon.svg)  | Lemon  | 0xFFA0 | #FFF700 |
+| ![Lemon curry](docs/tones/Lemon_curry.svg)  | Lemon curry  | 0xCD04 | #CCA01D |
+| ![Lemon glacier](docs/tones/Lemon_glacier.svg)  | Lemon glacier  | 0xFFE0 | #FDFF00 |
+| ![Lemon meringue](docs/tones/Lemon_meringue.svg)  | Lemon meringue  | 0xF757 | #F6EABE |
+| ![Light French beige](docs/tones/Light_french_beige.svg)  | Light French beige  | 0xC56F | #C8AD7F |
+| ![Light periwinkle](docs/tones/Light_periwinkle.svg)  | Light periwinkle  | 0xC65B | #C5CBE1 |
+| ![Light salmon](docs/tones/Light_salmon.svg)  | Light salmon  | 0xFD0F | #FFA07A |
+| ![Lilac](docs/tones/Lilac.svg)  | Lilac  | 0xC518 | #C8A2C8 |
+| ![Lilac Luster](docs/tones/Lilac_luster.svg)  | Lilac Luster  | 0xACD5 | #AE98AA |
+| ![Lime (color wheel)](docs/tones/Lime_color_wheel.svg)  | Lime (color wheel)  | 0xBFE0 | #BFFF00 |
+| ![Linen](docs/tones/Linen.svg)  | Linen  | 0xF77C | #FAF0E6 |
+| ![Lion](docs/tones/Lion.svg)  | Lion  | 0xBCCD | #C19A6B |
+| ![Liver](docs/tones/Liver.svg)  | Liver  | 0x6A69 | #674C47 |
+| ![Liver chestnut](docs/tones/Liver_chestnut.svg)  | Liver chestnut  | 0x93AA | #987456 |
+| ![Liver (dogs)](docs/tones/Liver_dogs.svg)  | Liver (dogs)  | 0xB365 | #B86D29 |
+| ![Liver (organ)](docs/tones/Liver_organ.svg)  | Liver (organ)  | 0x6964 | #6C2E1F |
+| ![Livid](docs/tones/Livid.svg)  | Livid  | 0x64D9 | #6699CC |
+| ![Macaroni and Cheese](docs/tones/Macaroni_and_cheese.svg)  | Macaroni and Cheese  | 0xFDF1 | #FFBD88 |
+| ![Madder Lake](docs/tones/Madder_lake.svg)  | Madder Lake  | 0xC9A7 | #CC3336 |
+| ![Magic mint](docs/tones/Magic_mint.svg)  | Magic mint  | 0xAF79 | #AAF0D1 |
+| ![Magnolia](docs/tones/Magnolia.svg)  | Magnolia  | 0xEF3A | #F2E8D7 |
+| ![Mahogany](docs/tones/Mahogany.svg)  | Mahogany  | 0xBA00 | #C04000 |
+| ![Maize](docs/tones/Maize.svg)  | Maize  | 0xFF4B | #FBEC5D |
+| ![Maize (Crayola)](docs/tones/Maize_crayola.svg)  | Maize (Crayola)  | 0xEE29 | #F2C649 |
+| ![Malachite](docs/tones/Malachite.svg)  | Malachite  | 0x0ECA | #0BDA51 |
+| ![Manatee](docs/tones/Manatee.svg)  | Manatee  | 0x94D5 | #979AAA |
+| ![Mandarin](docs/tones/Mandarin.svg)  | Mandarin  | 0xF3C9 | #F37A48 |
+| ![Mango](docs/tones/Mango.svg)  | Mango  | 0xFDE0 | #FDBE02 |
+| ![Mango Tango](docs/tones/Mango_tango.svg)  | Mango Tango  | 0xFC08 | #FF8243 |
+| ![Marigold](docs/tones/Marigold.svg)  | Marigold  | 0xE504 | #EAA221 |
+| ![Maroon (Crayola)](docs/tones/Maroon_crayola.svg)  | Maroon (Crayola)  | 0xC109 | #C32148 |
+| ![Maroon (web)](docs/tones/Maroon_web.svg)  | Maroon (web)  | 0x8000 | #800000 |
+| ![Maroon (X11)](docs/tones/Maroon_x11.svg)  | Maroon (X11)  | 0xA98C | #B03060 |
+| ![Mauve](docs/tones/Mauve.svg)  | Mauve  | 0xDD7F | #E0B0FF |
+| ![Mauve taupe](docs/tones/Mauve_taupe.svg)  | Mauve taupe  | 0x92ED | #915F6D |
+| ![Mauvelous](docs/tones/Mauvelous.svg)  | Mauvelous  | 0xECD5 | #EF98AA |
+| ![Medium aquamarine](docs/tones/Medium_aquamarine.svg)  | Medium aquamarine  | 0x66F5 | #66DDAA |
+| ![Medium carmine](docs/tones/Medium_carmine.svg)  | Medium carmine  | 0xAA06 | #AF4035 |
+| ![Medium champagne](docs/tones/Medium_champagne.svg)  | Medium champagne  | 0xF735 | #F3E5AB |
+| ![Medium orchid](docs/tones/Medium_orchid.svg)  | Medium orchid  | 0xBABA | #BA55D3 |
+| ![Medium turquoise](docs/tones/Medium_turquoise.svg)  | Medium turquoise  | 0x4E99 | #48D1CC |
+| ![Mellow apricot](docs/tones/Mellow_apricot.svg)  | Mellow apricot  | 0xF5AF | #F8B878 |
+| ![Melon](docs/tones/Melon.svg)  | Melon  | 0xFDD5 | #FEBAAD |
+| ![Metallic gold](docs/tones/Metallic_gold.svg)  | Metallic gold  | 0xD567 | #D3AF37 |
+| ![Metallic Seaweed](docs/tones/Metallic_seaweed.svg)  | Metallic Seaweed  | 0x0BF1 | #0A7E8C |
+| ![Metallic Sunburst](docs/tones/Metallic_sunburst.svg)  | Metallic Sunburst  | 0x9BE7 | #9C7C38 |
+| ![Middle grey](docs/tones/Middle_grey.svg)  | Middle grey  | 0x8C30 | #8B8680 |
+| ![Midnight](docs/tones/Midnight.svg)  | Midnight  | 0x712E | #702670 |
+| ![Ming](docs/tones/Ming.svg)  | Ming  | 0x3BAF | #36747D |
+| ![Mint](docs/tones/Mint.svg)  | Mint  | 0x4591 | #3EB489 |
+| ![Mint cream](docs/tones/Mint_cream.svg)  | Mint cream  | 0xF7FE | #F5FFFA |
+| ![Misty moss](docs/tones/Misty_moss.svg)  | Misty moss  | 0xBD8E | #BBB477 |
+| ![Mode beige](docs/tones/Mode_beige.svg)  | Mode beige  | 0x9383 | #967117 |
+| ![Mountain Meadow](docs/tones/Mountain_meadow.svg)  | Mountain Meadow  | 0x35D1 | #30BA8F |
+| ![Mulberry (Crayola)](docs/tones/Mulberry_crayola.svg)  | Mulberry (Crayola)  | 0xC293 | #C8509B |
+| ![Mustard](docs/tones/Mustard.svg)  | Mustard  | 0xFECB | #FFDB58 |
+| ![Mystic](docs/tones/Mystic.svg)  | Mystic  | 0xD290 | #D65282 |
+| ![Mystic maroon](docs/tones/Mystic_maroon.svg)  | Mystic maroon  | 0xAA2F | #AD4379 |
+| ![Neon Carrot](docs/tones/Neon_carrot.svg)  | Neon Carrot  | 0xFD08 | #FFA343 |
+| ![Neon fuchsia](docs/tones/Neon_fuchsia.svg)  | Neon fuchsia  | 0xFA0C | #FE4164 |
+| ![Nyanza](docs/tones/Nyanza.svg)  | Nyanza  | 0xE7FB | #E9FFDB |
+| ![Ochre](docs/tones/Ochre.svg)  | Ochre  | 0xCBA4 | #CC7722 |
+| ![Old burgundy](docs/tones/Old_burgundy.svg)  | Old burgundy  | 0x4186 | #43302E |
+| ![Old gold](docs/tones/Old_gold.svg)  | Old gold  | 0xCDA7 | #CFB53B |
+| ![Old lavender](docs/tones/Old_lavender.svg)  | Old lavender  | 0x7B4F | #796878 |
+| ![Old mauve](docs/tones/Old_mauve.svg)  | Old mauve  | 0x6989 | #673147 |
+| ![Old silver](docs/tones/Old_silver.svg)  | Old silver  | 0x8430 | #848482 |
+| ![Olive Drab (#3)](docs/tones/Olive_drab_3.svg)  | Olive Drab (#3)  | 0x6C64 | #6B8E23 |
+| ![Olive Drab #7](docs/tones/Olive_drab_7.svg)  | Olive Drab #7  | 0x39A4 | #3C341F |
+| ![Olivine](docs/tones/Olivine.svg)  | Olivine  | 0x9DCE | #9AB973 |
+| ![Opal](docs/tones/Opal.svg)  | Opal  | 0xA617 | #A8C3BC |
+| ![Opera mauve](docs/tones/Opera_mauve.svg)  | Opera mauve  | 0xB434 | #B784A7 |
+| ![Orchid (Crayola)](docs/tones/Orchid_crayola.svg)  | Orchid (Crayola)  | 0xDCFA | #E29CD2 |
+| ![Outer space (Crayola)](docs/tones/Outer_space_crayola.svg)  | Outer space (Crayola)  | 0x29C7 | #2D383A |
+| ![Oxblood](docs/tones/Oxblood.svg)  | Oxblood  | 0x4800 | #4A0000 |
+| ![Pale aqua](docs/tones/Pale_aqua.svg)  | Pale aqua  | 0xBE9C | #BCD4E6 |
+| ![Pale cerulean](docs/tones/Pale_cerulean.svg)  | Pale cerulean  | 0x9E1B | #9BC4E2 |
+| ![Pale silver](docs/tones/Pale_silver.svg)  | Pale silver  | 0xC5F7 | #C9C0BB |
+| ![Pale spring bud](docs/tones/Pale_spring_bud.svg)  | Pale spring bud  | 0xEF57 | #ECEBBD |
+| ![Patriarch](docs/tones/Patriarch.svg)  | Patriarch  | 0x8010 | #800080 |
+| ![Paynes grey](docs/tones/Paynes_grey.svg)  | Paynes grey  | 0x534F | #536878 |
+| ![Peach (Crayola)](docs/tones/Peach_crayola.svg)  | Peach (Crayola)  | 0xFE54 | #FFCBA4 |
+| ![Peach puff](docs/tones/Peach_puff.svg)  | Peach puff  | 0xFED6 | #FFDAB9 |
+| ![Periwinkle (Crayola)](docs/tones/Periwinkle_crayola.svg)  | Periwinkle (Crayola)  | 0xC67C | #C3CDE6 |
+| ![Permanent Geranium Lake](docs/tones/Permanent_geranium_lake.svg)  | Permanent Geranium Lake  | 0xD965 | #E12C2C |
+| ![Persian indigo](docs/tones/Persian_indigo.svg)  | Persian indigo  | 0x308F | #32127A |
+| ![Persian plum](docs/tones/Persian_plum.svg)  | Persian plum  | 0x70E3 | #701C1C |
+| ![Persian rose](docs/tones/Persian_rose.svg)  | Persian rose  | 0xF954 | #FE28A2 |
+| ![Pictorial carmine](docs/tones/Pictorial_carmine.svg)  | Pictorial carmine  | 0xC069 | #C30B4E |
+| ![Pine tree](docs/tones/Pine_tree.svg)  | Pine tree  | 0x2984 | #2A2F23 |
+| ![Pistachio](docs/tones/Pistachio.svg)  | Pistachio  | 0x962E | #93C572 |
+| ![Plum](docs/tones/Plum.svg)  | Plum  | 0x8A30 | #8E4585 |
+| ![Plum (web)](docs/tones/Plum_web.svg)  | Plum (web)  | 0xDD1B | #DDA0DD |
+| ![Polished Pine](docs/tones/Polished_pine.svg)  | Polished Pine  | 0x5D32 | #5DA493 |
+| ![Popstar](docs/tones/Popstar.svg)  | Popstar  | 0xBA8C | #BE4F62 |
+| ![Prune](docs/tones/Prune.svg)  | Prune  | 0x70E3 | #701C1C |
+| ![Quick Silver](docs/tones/Quick_silver.svg)  | Quick Silver  | 0xA534 | #A6A6A6 |
+| ![Rajah](docs/tones/Rajah.svg)  | Rajah  | 0xFD4C | #FBAB60 |
+| ![Raspberry](docs/tones/Raspberry.svg)  | Raspberry  | 0xE06B | #E30B5D |
+| ![Raspberry glace](docs/tones/Raspberry_glace.svg)  | Raspberry glace  | 0x92ED | #915F6D |
+| ![Raspberry rose](docs/tones/Raspberry_rose.svg)  | Raspberry rose  | 0xB22D | #B3446C |
+| ![Raw sienna](docs/tones/Raw_sienna.svg)  | Raw sienna  | 0xD44B | #D68A59 |
+| ![Razzmatazz](docs/tones/Razzmatazz.svg)  | Razzmatazz  | 0xE12D | #E3256B |
+| ![Razzmic Berry](docs/tones/Razzmic_berry.svg)  | Razzmic Berry  | 0x8A70 | #8D4E85 |
+| ![Rhythm](docs/tones/Rhythm.svg)  | Rhythm  | 0x73B2 | #777696 |
+| ![Roman silver](docs/tones/Roman_silver.svg)  | Roman silver  | 0x8452 | #838996 |
+| ![Rose](docs/tones/Rose.svg)  | Rose  | 0xF80F | #FF007F |
+| ![Rose bonbon](docs/tones/Rose_bonbon.svg)  | Rose bonbon  | 0xF213 | #F9429E |
+| ![Rose Dust](docs/tones/Rose_dust.svg)  | Rose Dust  | 0x9AED | #9E5E6F |
+| ![Rose madder](docs/tones/Rose_madder.svg)  | Rose madder  | 0xE127 | #E32636 |
+| ![Rosso corsa](docs/tones/Rosso_corsa.svg)  | Rosso corsa  | 0xD000 | #D40000 |
+| ![Ruber](docs/tones/Ruber.svg)  | Ruber  | 0xCA2E | #CE4676 |
+| ![Ruby](docs/tones/Ruby.svg)  | Ruby  | 0xD88C | #E0115F |
+| ![Rufous](docs/tones/Rufous.svg)  | Rufous  | 0xA0E1 | #A81C07 |
+| ![Rust](docs/tones/Rust.svg)  | Rust  | 0xB202 | #B7410E |
+| ![Sage](docs/tones/Sage.svg)  | Sage  | 0xBDB1 | #BCB88A |
+| ![Sand](docs/tones/Sand.svg)  | Sand  | 0xC590 | #C2B280 |
+| ![Sand dune](docs/tones/Sand_dune.svg)  | Sand dune  | 0x9383 | #967117 |
+| ![Sapphire (Crayola)](docs/tones/Sapphire_crayola.svg)  | Sapphire (Crayola)  | 0x0334 | #0067A5 |
+| ![Satin sheen gold](docs/tones/Satin_sheen_gold.svg)  | Satin sheen gold  | 0xCD06 | #CBA135 |
+| ![Sepia](docs/tones/Sepia.svg)  | Sepia  | 0x7202 | #704214 |
+| ![Shadow](docs/tones/Shadow.svg)  | Shadow  | 0x8BCB | #8A795D |
+| ![Shimmering Blush](docs/tones/Shimmering_blush.svg)  | Shimmering Blush  | 0xD432 | #D98695 |
+| ![Shiny Shamrock](docs/tones/Shiny_shamrock.svg)  | Shiny Shamrock  | 0x652F | #5FA778 |
+| ![Sienna](docs/tones/Sienna.svg)  | Sienna  | 0x8963 | #882D17 |
+| ![Silver chalice](docs/tones/Silver_chalice.svg)  | Silver chalice  | 0xAD55 | #ACACAC |
+| ![Silver (Crayola)](docs/tones/Silver_crayola.svg)  | Silver (Crayola)  | 0xC5F7 | #C9C0BB |
+| ![Silver (Metallic)](docs/tones/Silver_metallic.svg)  | Silver (Metallic)  | 0xAD55 | #AAA9AD |
+| ![Silver sand](docs/tones/Silver_sand.svg)  | Silver sand  | 0xBE18 | #BFC1C2 |
+| ![Sinopia](docs/tones/Sinopia.svg)  | Sinopia  | 0xCA01 | #CB410B |
+| ![Sizzling Sunrise](docs/tones/Sizzling_sunrise.svg)  | Sizzling Sunrise  | 0xFEC0 | #FFDB00 |
+| ![Smitten](docs/tones/Smitten.svg)  | Smitten  | 0xC210 | #C84186 |
+| ![Sonic silver](docs/tones/Sonic_silver.svg)  | Sonic silver  | 0x73AE | #757575 |
+| ![Spanish bistre](docs/tones/Spanish_bistre.svg)  | Spanish bistre  | 0x83A6 | #807532 |
+| ![Spanish carmine](docs/tones/Spanish_carmine.svg)  | Spanish carmine  | 0xC809 | #D10047 |
+| ![Spanish viridian](docs/tones/Spanish_viridian.svg)  | Spanish viridian  | 0x03EB | #007F5C |
+| ![Spring bud](docs/tones/Spring_bud.svg)  | Spring bud  | 0xA7C0 | #A7FC00 |
+| ![Spring Frost](docs/tones/Spring_frost.svg)  | Spring Frost  | 0x87E5 | #87FF2A |
+| ![Steel Teal](docs/tones/Steel_teal.svg)  | Steel Teal  | 0x6451 | #5F8A8B |
+| ![Straw](docs/tones/Straw.svg)  | Straw  | 0xE6CD | #E4D96F |
+| ![Strawberry](docs/tones/Strawberry.svg)  | Strawberry  | 0xF28A | #FA5053 |
+| ![Strawberry Blonde](docs/tones/Strawberry_blonde.svg)  | Strawberry Blonde  | 0xFC8C | #ff9361 |
+| ![Sugar Plum](docs/tones/Sugar_plum.svg)  | Sugar Plum  | 0x926E | #914E75 |
+| ![Sunglow](docs/tones/Sunglow.svg)  | Sunglow  | 0xFE46 | #FFCC33 |
+| ![Sunray](docs/tones/Sunray.svg)  | Sunray  | 0xE54B | #E3AB57 |
+| ![Sunset](docs/tones/Sunset.svg)  | Sunset  | 0xF6B4 | #FAD6A5 |
+| ![Tan (Crayola)](docs/tones/Tan_crayola.svg)  | Tan (Crayola)  | 0xD4CD | #D99A6C |
+| ![Tea rose](docs/tones/Tea_rose.svg)  | Tea rose  | 0xF40F | #F88379 |
+| ![Tenné](docs/tones/Tenne.svg)  | Tenné  | 0xCAA0 | #CD5700 |
+| ![Terra cotta](docs/tones/Terra_cotta.svg)  | Terra cotta  | 0xDB8B | #E2725B |
+| ![Timberwolf](docs/tones/Timberwolf.svg)  | Timberwolf  | 0xDEBA | #DBD7D2 |
+| ![Tropical rainforest](docs/tones/Tropical_rainforest.svg)  | Tropical rainforest  | 0x03AB | #00755E |
+| ![Tumbleweed](docs/tones/Tumbleweed.svg)  | Tumbleweed  | 0xDD51 | #DEAA88 |
+| ![Tuscan](docs/tones/Tuscan.svg)  | Tuscan  | 0xF6B4 | #FAD6A5 |
+| ![Tuscan tan](docs/tones/Tuscan_tan.svg)  | Tuscan tan  | 0xA3CB | #A67B5B |
+| ![Tuscany](docs/tones/Tuscany.svg)  | Tuscany  | 0xBCD3 | #C09999 |
+| ![Twilight lavender](docs/tones/Twilight_lavender.svg)  | Twilight lavender  | 0x8A4D | #8A496B |
+| ![Umber](docs/tones/Umber.svg)  | Umber  | 0x6289 | #635147 |
+| ![Unbleached silk](docs/tones/Unbleached_silk.svg)  | Unbleached silk  | 0xFEF9 | #FFDDCA |
+| ![UP maroon](docs/tones/Up_maroon.svg)  | UP maroon  | 0x7882 | #7B1113 |
+| ![Vanilla ice](docs/tones/Vanilla_ice.svg)  | Vanilla ice  | 0xF475 | #F38FA9 |
+| ![Vegas gold](docs/tones/Vegas_gold.svg)  | Vegas gold  | 0xC58B | #C5B358 |
+| ![Veronica](docs/tones/Veronica.svg)  | Veronica  | 0x991D | #A020F0 |
+| ![Viridian](docs/tones/Viridian.svg)  | Viridian  | 0x440D | #40826D |
+| ![Vivid burgundy](docs/tones/Vivid_burgundy.svg)  | Vivid burgundy  | 0x98E6 | #9F1D35 |
+| ![Vivid tangerine](docs/tones/Vivid_tangerine.svg)  | Vivid tangerine  | 0xFD11 | #FFA089 |
+| ![Volt](docs/tones/Volt.svg)  | Volt  | 0xCFE0 | #CEFF00 |
+| ![Wheat](docs/tones/Wheat.svg)  | Wheat  | 0xF6F6 | #F5DEB3 |
+| ![Wild orchid](docs/tones/Wild_orchid.svg)  | Wild orchid  | 0xD394 | #D470A2 |
+| ![Wild Strawberry](docs/tones/Wild_strawberry.svg)  | Wild Strawberry  | 0xFA34 | #FF43A4 |
+| ![Wild watermelon](docs/tones/Wild_watermelon.svg)  | Wild watermelon  | 0xFB70 | #FC6C85 |
+| ![Windsor tan](docs/tones/Windsor_tan.svg)  | Windsor tan  | 0xA2A0 | #A75502 |
+| ![Wine](docs/tones/Wine.svg)  | Wine  | 0x7187 | #722F37 |
+| ![Wine dregs](docs/tones/Wine_dregs.svg)  | Wine dregs  | 0x6989 | #673147 |
+| ![Winter Sky](docs/tones/Winter_sky.svg)  | Winter Sky  | 0xF80F | #FF007C |
+| ![Zaffre](docs/tones/Zaffre.svg)  | Zaffre  | 0x00B4 | #0014A8 |
+
