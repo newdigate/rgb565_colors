@@ -310,7 +310,7 @@ installable header file containing definitions for RGB565 colors not defined in 
 
 
 ## gray 
-![gray](docs/svg/gray.svg)|  Color | Name  | rgb565  |  rgb888 |
+|  Color | Name  | rgb565  |  rgb888 |
 |---|---|---|---|
 | ![Ash gray](docs/tones/Ash_gray.svg)  | Ash gray  | 0xB5F6 | #B2BEB5 |
 | ![Battleship gray](docs/tones/Battleship_gray.svg)  | Battleship gray  | 0x8430 | #848482 |
