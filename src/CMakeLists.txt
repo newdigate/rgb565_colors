@@ -9,18 +9,17 @@ if (OPT_BUILD_FOR_LINUX)
 	set(BUILD_FOR_LINUX 1)
 endif()
 
-#set(SOURCE_FILES TFTPianoDisplay.cpp)
-
 set(HEADER_FILES
 		rgb565_colors.h
 		rgb565_alphaBlend.h)
 
 if (DEFINED BUILD_FOR_LINUX)
-
-
-	include(CMakeLists.linux.cmake.in)
-	add_custom_target(installarduino
-			"${CMAKE_COMMAND}" -P "${CMAKE_CURRENT_SOURCE_DIR}/../cmake/install_arduino_library.cmake")
+	add_library(rgb565_colors INTERFACE ${HEADER_FILES})
 else()
-	include(CMakeLists.teensy.cmake.in)
+	message("building for teensy...")
+	include(../teensy.options.cmake.in)
+	include(../teensy.build.cmake.in)
+	teensy_add_library(
+			rgb565_colors
+			${HEADER_FILES})
 endif()
